@@ -4,16 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
     <link rel="stylesheet" href="./style.css">
-    <title>Question Area</title>
 </head>
 
 <body>
 
-    <h1>Let's Start</h1>
+    <div class="container">
+
+        <h4>Quiz Application</h4>
+        <p id="score"></p>
+        <p id="question"></p>
+        <button id="choice1" onclick="correctAns(0)"></button>
+        <button id="choice2" onclick="correctAns(1)"></button>
+        <button id="choice3" onclick="correctAns(2)"></button>
+        <button id="choice4" onclick="correctAns(3)"></button>
+
+    </div>
 
     <script src="./script.js"></script>
-
 </body>
 
 </html>
